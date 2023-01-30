@@ -38,6 +38,13 @@ app.post("/api/notes", function (req, res) {
 
 app.delete("/api/notes/:id", function (req, res) {
     console.log("delete  received.");
+    let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let id = req.params.id;
+    let newId = 0;
+    notes = notes.filter((currNote) => {
+        return currNote.id != id;
+      });
+    
 });
 
 app.listen(port, function () {
