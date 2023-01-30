@@ -20,7 +20,11 @@ app.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "/db/db.json"));
   });
 
-  
+  app.get("/api/notes/:id", function (req, res) {
+    let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    res.json(notes[Number(req.params.id)]);
+  });
+ 
 
 app.listen(port, function () {
     console.log(`Server listening on port ${port}. At your service!`);
