@@ -36,6 +36,10 @@ app.post("/api/notes", function (req, res) {
   res.json(notes);
 });
 
+app.delete("/api/notes/:id", function (req, res) {
+    console.log("delete  received.");
+});
+
 app.listen(port, function () {
   console.log(`Server listening on port ${port}. At your service!`);
 });
