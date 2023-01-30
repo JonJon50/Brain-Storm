@@ -10,6 +10,12 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+
+// get route /notes
+app.get("/notes", function (req, res) {
+    res.sendFile(path.join(pubDir, "notes.html"));
+  });
+
 app.listen(port, function () {
     console.log(`Server listening on port ${port}. At your service!`);
   });
