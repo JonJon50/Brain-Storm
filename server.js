@@ -41,11 +41,19 @@ app.delete("/api/notes/:id", function (req, res) {
     let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     let id = req.params.id;
     let newId = 0;
+
     notes = notes.filter((currNote) => {
         return currNote.id != id;
       });
-    
-});
+
+      for (currNote of savedNotes) {
+        currNote.id = newId.toString();
+        newId++;
+      }
+
+      fs.writeFileSync("./db/db.json", JSON.stringify(notes));
+      res.json(notes);
+    });
 
 app.listen(port, function () {
   console.log(`Server listening on port ${port}. At your service!`);
