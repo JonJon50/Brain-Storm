@@ -25,6 +25,12 @@ app.get("/notes", function (req, res) {
     res.json(notes[Number(req.params.id)]);
   });
  
+  app.post("/api/notes", function (req, res) {
+    let notes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+    let note = req.body;
+    let id = savedNotes.length.toString();
+    note.id = id;
+    savedNotes.push(note);
 
 app.listen(port, function () {
     console.log(`Server listening on port ${port}. At your service!`);
