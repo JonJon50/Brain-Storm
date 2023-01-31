@@ -26,26 +26,26 @@
 3. Deployment to Heroku and **so much more**.
 
 
-![Photo1](./assets/images/main1.png)
-![Photo2](./assets/images/maps2.png)
-![Photo3](./assets/images/Exercise3.png)
-![Photo4](./assets/images/Cardio.png)
+![Photo1](./images/note%20taker.png)
+![Photo2](./images/note%20taker%201.png)
+![Photo3](./images/note%20taker%202.png)
+
 
 
 ## <h2 id="installation"> Installation </h2>
 
-Go to the internet, type in Fit Resolution and follow the easy to navigate instruction. That's it!
+Go to the internet, type Brain Storm. That's it!
 
 <br>
 
 ## <h2 id="usage"> Usage </h2>
 
 1. Navigate to the page.
-2. Here you will be asked a series of questions, click the '**Fit Quiz**' button to start. 
-3. Choose the answer that applies to you.
-4. If home exercise, click the '**Workout**' button and access the guide to set up your own home workout program.
-5. If it Gym, click the '**Gym Finder**' button and find the perfect gym in Google Maps to continue your journey.
-6. Now discover your full potential starting strong on your health journey!
+2. Here you will see as input that says Note Taker, click then '**start typing**'!
+3. Also in the right hand corner there is a plus icon, here you can add notes.
+4. After finishing with the entry, click the disk icon to save.
+5. When the task is not longer needed, click the trash can icon to delete.
+6. Enjoy you organized stress free day!!
 
 🔭 [Deployment Website](https://jonjon50.github.io/Fit-Resolution/) 🔭
 
@@ -58,8 +58,9 @@ Go to the internet, type in Fit Resolution and follow the easy to navigate instr
 - Bootstrap
 - HTML
 - CSS
-- Bulma
-
+- Express.js
+- Node.js
+- Heroku
 
 - [x] Reliable API // This is done 
 - [x] Authentication // This is done
