@@ -46,7 +46,7 @@ app.delete("/api/notes/:id", function (req, res) {
         return currNote.id != id;
       });
 
-      for (currNote of savedNotes) {
+      for (currNote of notes) {
         currNote.id = newId.toString();
         newId++;
       }
