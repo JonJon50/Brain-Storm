@@ -34,13 +34,13 @@
 
 
 
-## <h2 id="installation"> Installation </h2>
+## Installation
 
 Go to the internet, type Brain Storm. That's it!
 
 <br>
 
-## <h2 id="usage"> Usage </h2>
+## Usage
 
 1. Navigate to the page.
 2. Here you will see as input that says Note Taker, click then '**start typing**'!
