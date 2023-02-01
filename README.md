@@ -1,8 +1,10 @@
 <h1 align="center">Brain Storm</h1>
 
+ ![alt](https://img.shields.io/badge/License-MIT-blue) 
 <p align="center">Note Taker</p>
 
 <p align="center">ScreenShots 🏆</p>
+
  
 
 <br>
@@ -47,7 +49,7 @@ Go to the internet, type Brain Storm. That's it!
 5. When the task is not longer needed, click the trash can icon to delete.
 6. Enjoy you organized stress free day!!
 
-🔭 [Deployment Website](https://jonjon50.github.io/Fit-Resolution/) 🔭
+🔭 [Deployment Website]() 🔭
 
 <br>
 
@@ -64,16 +66,15 @@ Go to the internet, type Brain Storm. That's it!
 
 - [x] Reliable API // This is done 
 - [x] Authentication // This is done
-- [x] Local Storage // This is done 
+- [x] Node Modules // This is done 
+- [x] Heroku Server Storage // This is done 
 
 <br>
 <h2 id="credits">Collaborators/Creditors 🏆</h2>
 
 👨‍💻 We are Coding BootCamp Alumni of [UCF](https://www.ucf.edu/students/) ⭐️
 
-- [Profile]( https://github.com/MilenaSilveira   " Milena Silveira ") -- Milena Silveira
-- [Profile]( https://github.com/tanglero4  " Tiffany Anglero ") -- Tiffany Anglero
-- [Profile]( https://github.com/darioelao  " Dario Elao ") -- Dario Elao
+
 - [Profile]( https://github.com/JonJon50  " John Hagens ") -- John Hagens
 
 Contributions, issues, and feature requests are welcome! 🤝
@@ -108,5 +109,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-@Levi0100
 </h5>
