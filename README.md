@@ -1,6 +1,6 @@
 <h1 align="center">Brain Storm</h1>
 
- ![alt](https://img.shields.io/badge/License-MIT-blue) 
+ ![alt](https://img.shields.io/badge/License-MIT-blue) ![alt](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Ftranquil-falls-34631.herokuapp.com%2Fnotes) 
 <p align="center">Note Taker</p>
 
 <p align="center">ScreenShots 🏆</p>
