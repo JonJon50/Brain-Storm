@@ -77,8 +77,13 @@ Go to the internet, type Brain Storm. That's it!
 
 - [Profile]( https://github.com/JonJon50  " John Hagens ") -- John Hagens
 
-Contributions, issues, and feature requests are welcome! 🤝
-Give a ⭐️ if you like this project!
+<table>
+	<tr>
+		<td>
+			Don't forget to star ⭐ this repository
+		</td>
+	</tr>
+</table>
 
 
 
@@ -110,3 +115,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </h5>
+
+
