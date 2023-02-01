@@ -27,7 +27,7 @@
 2. Retrieving and saving data from JSON
 3. Deployment to Heroku and **so much more**.
 
-
+![Photo0](./images/Brain%20Storm.gif)
 ![Photo1](./images/note%20taker.png)
 ![Photo2](./images/note%20taker%201.png)
 ![Photo3](./images/note%20taker%202.png)
